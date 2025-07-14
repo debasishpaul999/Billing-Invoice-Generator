@@ -6,7 +6,7 @@ def main():
     create_tables()
     root = tk.Tk()
     app = InvoiceApp(root)
-    root.mainloop(app)
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
